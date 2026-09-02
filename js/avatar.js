@@ -88,6 +88,7 @@ export const CATALOG = {
     { id: 'body-classic', label: 'Classic', scale: 1.0 },
     { id: 'body-slim', label: 'Slim', scale: 0.88 },
     { id: 'body-bulky', label: 'Bulky', scale: 1.14 },
+    { id: 'body-tiny', label: 'Tiny', scale: 0.50 },
   ],
 };
 
