@@ -74,9 +74,9 @@ export const CATALOG = {
   face: [
     //{ id: 'face-a', label: 'Classic' },
     { id: 'face-b', label: 'Happy' },
-    { id: 'face-c', label: 'Cool' },
-    { id: 'face-d', label: 'Surprised' },
-    { id: 'face-e', label: 'Determined' },
+    //{ id: 'face-c', label: 'Cool' },
+    //{ id: 'face-d', label: 'Surprised' },
+    //{ id: 'face-e', label: 'Determined' },
   ],
   accessory: [
     { id: 'acc-none', label: 'None', shape: 'none' },
