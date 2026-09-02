@@ -72,7 +72,7 @@ export const CATALOG = {
     { id: 'hat-band', label: 'Headband', color: '#e5484d', shape: 'band' },
   ],
   face: [
-    { id: 'face-a', label: 'Classic' },
+    //{ id: 'face-a', label: 'Classic' },
     { id: 'face-b', label: 'Happy' },
     { id: 'face-c', label: 'Cool' },
     { id: 'face-d', label: 'Surprised' },
@@ -98,7 +98,7 @@ export function defaultAvatarConfig() {
     pants: 'pants-classic',
     hair: 'hair-none',
     hat: 'hat-none',
-    face: 'face-a',
+    face: 'face-b',
     accessory: 'acc-none',
     body: 'body-classic',
   };
@@ -138,30 +138,50 @@ function makeFaceTexture(faceId, skinColor, aspect, customImageUrl) {
 
   switch (faceId) {
     case 'face-b': // happy
-      circle(ctx, cx - eyeDX, cy, eyeR);
-      circle(ctx, cx + eyeDX, cy, eyeR);
-      arc(ctx, cx, cy + h * 0.2, w * 0.16, 0.15 * Math.PI, 0.85 * Math.PI, h * 0.045);
-      break;
-    case 'face-c': // cool — shades bar + smirk
-      ctx.fillRect(cx - eyeDX - w * 0.09, cy - h * 0.045, w * 0.18, h * 0.09);
-      ctx.fillRect(cx + eyeDX - w * 0.09, cy - h * 0.045, w * 0.18, h * 0.09);
-      ctx.fillRect(cx - eyeDX + w * 0.09, cy - h * 0.018, (eyeDX - w * 0.09) * 2, h * 0.035);
-      line(ctx, cx - w * 0.11, cy + h * 0.24, cx + w * 0.13, cy + h * 0.2, h * 0.04);
-      break;
-    case 'face-d': // surprised
-      circle(ctx, cx - eyeDX, cy, eyeR * 1.2);
-      circle(ctx, cx + eyeDX, cy, eyeR * 1.2);
-      circle(ctx, cx, cy + h * 0.24, h * 0.07);
-      break;
-    case 'face-e': // determined
-      ctx.fillRect(cx - eyeDX - w * 0.08, cy - h * 0.03, w * 0.16, h * 0.07);
-      ctx.fillRect(cx + eyeDX - w * 0.08, cy - h * 0.03, w * 0.16, h * 0.07);
-      line(ctx, cx - w * 0.14, cy + h * 0.24, cx + w * 0.14, cy + h * 0.24, h * 0.045);
-      break;
-    default: // classic — two round dot eyes + simple curved smile (Roblox-style default)
-      circle(ctx, cx - eyeDX, cy, eyeR);
-      circle(ctx, cx + eyeDX, cy, eyeR);
-      line(ctx, cx - w * 0.13, cy + h * 0.22, cx + w * 0.13, cy + h * 0.22, h * 0.04);
+  // vertical eyes
+  line(ctx, cx - eyeDX, cy - h * 0.045, cx - eyeDX, cy + h * 0.045, h * 0.035);
+  line(ctx, cx + eyeDX, cy - h * 0.045, cx + eyeDX, cy + h * 0.045, h * 0.035);
+
+  // happy smile
+  line(ctx, cx - w * 0.13, cy + h * 0.22, cx, cy + h * 0.27, h * 0.04);
+  line(ctx, cx, cy + h * 0.27, cx + w * 0.13, cy + h * 0.22, h * 0.04);
+  break;
+
+case 'face-c': // cool
+  // vertical eyes
+  line(ctx, cx - eyeDX, cy - h * 0.045, cx - eyeDX, cy + h * 0.045, h * 0.035);
+  line(ctx, cx + eyeDX, cy - h * 0.045, cx + eyeDX, cy + h * 0.045, h * 0.035);
+
+  // smirk
+  line(ctx, cx - w * 0.11, cy + h * 0.24, cx + w * 0.13, cy + h * 0.2, h * 0.04);
+  break;
+
+case 'face-d': // surprised
+  // taller vertical eyes
+  line(ctx, cx - eyeDX, cy - h * 0.07, cx - eyeDX, cy + h * 0.07, h * 0.04);
+  line(ctx, cx + eyeDX, cy - h * 0.07, cx + eyeDX, cy + h * 0.07, h * 0.04);
+
+  // surprised mouth
+  line(ctx, cx - w * 0.05, cy + h * 0.24, cx + w * 0.05, cy + h * 0.24, h * 0.045);
+  break;
+
+case 'face-e': // determined
+  // vertical eyes
+  line(ctx, cx - eyeDX, cy - h * 0.06, cx - eyeDX, cy + h * 0.06, h * 0.045);
+  line(ctx, cx + eyeDX, cy - h * 0.06, cx + eyeDX, cy + h * 0.06, h * 0.045);
+
+  // straight mouth
+  line(ctx, cx - w * 0.14, cy + h * 0.24, cx + w * 0.14, cy + h * 0.24, h * 0.045);
+  break;
+
+default: // classic
+  // vertical eyes
+  line(ctx, cx - eyeDX, cy - h * 0.045, cx - eyeDX, cy + h * 0.045, h * 0.035);
+  line(ctx, cx + eyeDX, cy - h * 0.045, cx + eyeDX, cy + h * 0.045, h * 0.035);
+
+  // straight smile
+  line(ctx, cx - w * 0.13, cy + h * 0.22, cx + w * 0.13, cy + h * 0.22, h * 0.04);
+  //break;
   }
 
   const tex = new THREE.CanvasTexture(c);
