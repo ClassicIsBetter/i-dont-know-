@@ -137,52 +137,47 @@ function makeFaceTexture(faceId, skinColor, aspect, customImageUrl) {
   ctx.fillStyle = '#12141a';
 
   switch (faceId) {
-    case 'face-b': // happy
-  // vertical eyes
-  line(ctx, cx - eyeDX, cy - h * 0.045, cx - eyeDX, cy + h * 0.045, h * 0.035);
-  line(ctx, cx + eyeDX, cy - h * 0.045, cx + eyeDX, cy + h * 0.045, h * 0.035);
+ case 'face-b': // happy
+    // BIG vertical eyes
+    line(
+      ctx,
+      cx - eyeDX,
+      cy - h * 0.10,
+      cx - eyeDX,
+      cy + h * 0.10,
+      h * 0.065
+    );
 
-  // happy smile
-  line(ctx, cx - w * 0.13, cy + h * 0.22, cx, cy + h * 0.27, h * 0.04);
-  line(ctx, cx, cy + h * 0.27, cx + w * 0.13, cy + h * 0.22, h * 0.04);
-  break;
+    line(
+      ctx,
+      cx + eyeDX,
+      cy - h * 0.10,
+      cx + eyeDX,
+      cy + h * 0.10,
+      h * 0.065
+    );
 
-case 'face-c': // cool
-  // vertical eyes
-  line(ctx, cx - eyeDX, cy - h * 0.045, cx - eyeDX, cy + h * 0.045, h * 0.035);
-  line(ctx, cx + eyeDX, cy - h * 0.045, cx + eyeDX, cy + h * 0.045, h * 0.035);
+    // BIG happy smile
+    line(
+      ctx,
+      cx - w * 0.20,
+      cy + h * 0.20,
+      cx,
+      cy + h * 0.30,
+      h * 0.065
+    );
 
-  // smirk
-  line(ctx, cx - w * 0.11, cy + h * 0.24, cx + w * 0.13, cy + h * 0.2, h * 0.04);
-  break;
+    line(
+      ctx,
+      cx,
+      cy + h * 0.30,
+      cx + w * 0.20,
+      cy + h * 0.20,
+      h * 0.065
+    );
 
-case 'face-d': // surprised
-  // taller vertical eyes
-  line(ctx, cx - eyeDX, cy - h * 0.07, cx - eyeDX, cy + h * 0.07, h * 0.04);
-  line(ctx, cx + eyeDX, cy - h * 0.07, cx + eyeDX, cy + h * 0.07, h * 0.04);
-
-  // surprised mouth
-  line(ctx, cx - w * 0.05, cy + h * 0.24, cx + w * 0.05, cy + h * 0.24, h * 0.045);
-  break;
-
-case 'face-e': // determined
-  // vertical eyes
-  line(ctx, cx - eyeDX, cy - h * 0.06, cx - eyeDX, cy + h * 0.06, h * 0.045);
-  line(ctx, cx + eyeDX, cy - h * 0.06, cx + eyeDX, cy + h * 0.06, h * 0.045);
-
-  // straight mouth
-  line(ctx, cx - w * 0.14, cy + h * 0.24, cx + w * 0.14, cy + h * 0.24, h * 0.045);
-  break;
-
-default: // classic
-  // vertical eyes
-  line(ctx, cx - eyeDX, cy - h * 0.045, cx - eyeDX, cy + h * 0.045, h * 0.035);
-  line(ctx, cx + eyeDX, cy - h * 0.045, cx + eyeDX, cy + h * 0.045, h * 0.035);
-
-  // straight smile
-  line(ctx, cx - w * 0.13, cy + h * 0.22, cx + w * 0.13, cy + h * 0.22, h * 0.04);
-  //break;
-  }
+    break;
+}
 
   const tex = new THREE.CanvasTexture(c);
   tex.colorSpace = THREE.SRGBColorSpace;
