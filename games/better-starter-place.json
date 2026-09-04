@@ -1,0 +1,2008 @@
+{
+  "project_id": "proj_mswxc4wv_j41hqu",
+  "name": "better starter place",
+  "description": "",
+  "creator": "Classic_IsBetter",
+  "icon": "🏝️",
+  "created": 1786952426719,
+  "updated": 1787389513160,
+  "published": true,
+  "world": [
+    {
+      "id": "part_mswxc4wv_8yjemx",
+      "type": "part",
+      "name": "Baseplate",
+      "position": {
+        "x": 0,
+        "y": -0.5,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 5.867903835283547,
+        "y": 1,
+        "z": 6.843573825806047
+      },
+      "size": {
+        "x": 8,
+        "y": 1,
+        "z": 8
+      },
+      "color": "#4caf50",
+      "material": "grass",
+      "transparency": 0,
+      "collidable": true,
+      "anchored": true,
+      "parentId": null,
+      "scripts": []
+    },
+    {
+      "id": "spawn_mswxc4wv_fuuv6k",
+      "type": "spawn",
+      "name": "SpawnLocation",
+      "position": {
+        "x": 0,
+        "y": 0.15,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "size": {
+        "x": 3,
+        "y": 0.3,
+        "z": 3
+      },
+      "color": "#4fd1c5",
+      "material": "plastic",
+      "transparency": 0,
+      "collidable": false,
+      "anchored": true,
+      "parentId": null,
+      "scripts": []
+    },
+    {
+      "id": "part_mswxc4wv_yk0q94",
+      "type": "part",
+      "name": "Path",
+      "position": {
+        "x": 0,
+        "y": 0.1,
+        "z": 3
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "size": {
+        "x": 2,
+        "y": 0.2,
+        "z": 2
+      },
+      "color": "#a9adb4",
+      "material": "concrete",
+      "transparency": 0,
+      "collidable": true,
+      "anchored": true,
+      "parentId": null,
+      "scripts": []
+    },
+    {
+      "id": "part_mswxc4wv_qghblg",
+      "type": "part",
+      "name": "Path",
+      "position": {
+        "x": 0,
+        "y": 0.10000000000000009,
+        "z": 5.2
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "size": {
+        "x": 2,
+        "y": 0.2,
+        "z": 2
+      },
+      "color": "#a9adb4",
+      "material": "concrete",
+      "transparency": 0,
+      "collidable": true,
+      "anchored": true,
+      "parentId": null,
+      "scripts": []
+    },
+    {
+      "id": "part_mswxc4wv_lrl1ri",
+      "type": "part",
+      "name": "Path",
+      "position": {
+        "x": 0,
+        "y": 0.1,
+        "z": 7.4
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "size": {
+        "x": 2,
+        "y": 0.2,
+        "z": 2
+      },
+      "color": "#a9adb4",
+      "material": "concrete",
+      "transparency": 0,
+      "collidable": true,
+      "anchored": true,
+      "parentId": null,
+      "scripts": []
+    },
+    {
+      "id": "part_mswxc4wv_hocvqr",
+      "type": "part",
+      "name": "Path",
+      "position": {
+        "x": 0,
+        "y": 0.1,
+        "z": 9.600000000000001
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "size": {
+        "x": 2,
+        "y": 0.2,
+        "z": 2
+      },
+      "color": "#a9adb4",
+      "material": "concrete",
+      "transparency": 0,
+      "collidable": true,
+      "anchored": true,
+      "parentId": null,
+      "scripts": []
+    },
+    {
+      "id": "part_mswxc4wv_0n40wu",
+      "type": "part",
+      "name": "Path",
+      "position": {
+        "x": 0,
+        "y": 0.1,
+        "z": 11.8
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "size": {
+        "x": 2,
+        "y": 0.2,
+        "z": 2
+      },
+      "color": "#a9adb4",
+      "material": "concrete",
+      "transparency": 0,
+      "collidable": true,
+      "anchored": true,
+      "parentId": null,
+      "scripts": []
+    },
+    {
+      "id": "part_mswxc4wv_owxul7",
+      "type": "part",
+      "name": "Path",
+      "position": {
+        "x": 0,
+        "y": 0.1,
+        "z": 14
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "size": {
+        "x": 2,
+        "y": 0.2,
+        "z": 2
+      },
+      "color": "#a9adb4",
+      "material": "concrete",
+      "transparency": 0,
+      "collidable": true,
+      "anchored": true,
+      "parentId": null,
+      "scripts": []
+    },
+    {
+      "id": "part_mswxc4wv_jcdrc4",
+      "type": "part",
+      "name": "Path",
+      "position": {
+        "x": 0,
+        "y": 0.1,
+        "z": 16.200000000000003
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "size": {
+        "x": 2,
+        "y": 0.2,
+        "z": 2
+      },
+      "color": "#a9adb4",
+      "material": "concrete",
+      "transparency": 0,
+      "collidable": true,
+      "anchored": true,
+      "parentId": null,
+      "scripts": []
+    },
+    {
+      "id": "part_mswxc4wv_djnshk",
+      "type": "part",
+      "name": "Path",
+      "position": {
+        "x": 0,
+        "y": 0.1,
+        "z": 18.400000000000002
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "size": {
+        "x": 2,
+        "y": 0.2,
+        "z": 2
+      },
+      "color": "#a9adb4",
+      "material": "concrete",
+      "transparency": 0,
+      "collidable": true,
+      "anchored": true,
+      "parentId": null,
+      "scripts": []
+    },
+    {
+      "id": "part_mswxc4wv_rjg2k8",
+      "type": "part",
+      "name": "Path",
+      "position": {
+        "x": 0,
+        "y": 0.1,
+        "z": 20.6
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "size": {
+        "x": 2,
+        "y": 0.2,
+        "z": 2
+      },
+      "color": "#a9adb4",
+      "material": "concrete",
+      "transparency": 0,
+      "collidable": true,
+      "anchored": true,
+      "parentId": null,
+      "scripts": []
+    },
+    {
+      "id": "part_mswxc4wv_i9kzxy",
+      "type": "part",
+      "name": "House Floor",
+      "position": {
+        "x": -8,
+        "y": 0.15,
+        "z": 6
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "size": {
+        "x": 6,
+        "y": 0.3,
+        "z": 6
+      },
+      "color": "#9a6633",
+      "material": "wood",
+      "transparency": 0,
+      "collidable": true,
+      "anchored": true,
+      "parentId": null,
+      "scripts": []
+    },
+    {
+      "id": "part_mswxc4wv_23vh5h",
+      "type": "part",
+      "name": "House Wall N",
+      "position": {
+        "x": -8,
+        "y": 1.65,
+        "z": 3
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "size": {
+        "x": 6,
+        "y": 3,
+        "z": 0.3
+      },
+      "color": "#a1543a",
+      "material": "brick",
+      "transparency": 0,
+      "collidable": true,
+      "anchored": true,
+      "parentId": null,
+      "scripts": []
+    },
+    {
+      "id": "part_mswxc4wv_raudxo",
+      "type": "part",
+      "name": "House Wall S",
+      "position": {
+        "x": -8,
+        "y": 1.65,
+        "z": 9
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "size": {
+        "x": 6,
+        "y": 3,
+        "z": 0.3
+      },
+      "color": "#a1543a",
+      "material": "brick",
+      "transparency": 0,
+      "collidable": true,
+      "anchored": true,
+      "parentId": null,
+      "scripts": []
+    },
+    {
+      "id": "part_mswxc4wv_wzh5f6",
+      "type": "part",
+      "name": "House Wall W",
+      "position": {
+        "x": -11,
+        "y": 1.65,
+        "z": 6
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "size": {
+        "x": 0.3,
+        "y": 3,
+        "z": 6
+      },
+      "color": "#a1543a",
+      "material": "brick",
+      "transparency": 0,
+      "collidable": true,
+      "anchored": true,
+      "parentId": null,
+      "scripts": []
+    },
+    {
+      "id": "part_mswxc4wv_ts8ut9",
+      "type": "part",
+      "name": "House Wall E (window)",
+      "position": {
+        "x": -5,
+        "y": 1.65,
+        "z": 6
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "size": {
+        "x": 0.3,
+        "y": 3,
+        "z": 6
+      },
+      "color": "#70c1ff",
+      "material": "glass",
+      "transparency": 0.6,
+      "collidable": true,
+      "anchored": true,
+      "parentId": null,
+      "scripts": []
+    },
+    {
+      "id": "part_mswxc4wv_obp27l",
+      "type": "part",
+      "name": "House Roof",
+      "position": {
+        "x": -8,
+        "y": 3.2597322401087703,
+        "z": 6
+      },
+      "rotation": {
+        "x": 0,
+        "y": -1.560813365642882,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "size": {
+        "x": 6.6,
+        "y": 0.4,
+        "z": 6.6
+      },
+      "color": "#7a4a24",
+      "material": "wood",
+      "transparency": 0,
+      "collidable": true,
+      "anchored": true,
+      "parentId": null,
+      "scripts": []
+    },
+    {
+      "id": "part_mswxc4wv_6tfpb1",
+      "type": "part",
+      "name": "Tree Trunk",
+      "position": {
+        "x": 6,
+        "y": 1.2,
+        "z": 4
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "size": {
+        "x": 0.6,
+        "y": 2.4,
+        "z": 0.6
+      },
+      "color": "#6b4226",
+      "material": "wood",
+      "transparency": 0,
+      "collidable": true,
+      "anchored": true,
+      "parentId": null,
+      "scripts": []
+    },
+    {
+      "id": "part_mswxc4wv_cuwv38",
+      "type": "part",
+      "name": "Tree Canopy",
+      "position": {
+        "x": 6,
+        "y": 3.4,
+        "z": 4
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "size": {
+        "x": 2.2,
+        "y": 2.2,
+        "z": 2.2
+      },
+      "color": "#2e8b57",
+      "material": "grass",
+      "transparency": 0,
+      "collidable": true,
+      "anchored": true,
+      "parentId": null,
+      "scripts": []
+    },
+    {
+      "id": "part_mswxc4wv_i52l0z",
+      "type": "part",
+      "name": "Tree Trunk",
+      "position": {
+        "x": 9,
+        "y": 1.2,
+        "z": 8
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "size": {
+        "x": 0.6,
+        "y": 2.4,
+        "z": 0.6
+      },
+      "color": "#6b4226",
+      "material": "wood",
+      "transparency": 0,
+      "collidable": true,
+      "anchored": true,
+      "parentId": null,
+      "scripts": []
+    },
+    {
+      "id": "part_mswxc4wv_ykgy5u",
+      "type": "part",
+      "name": "Tree Canopy",
+      "position": {
+        "x": 9,
+        "y": 3.4,
+        "z": 8
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "size": {
+        "x": 2.2,
+        "y": 2.2,
+        "z": 2.2
+      },
+      "color": "#2e8b57",
+      "material": "grass",
+      "transparency": 0,
+      "collidable": true,
+      "anchored": true,
+      "parentId": null,
+      "scripts": []
+    },
+    {
+      "id": "part_mswxc4wv_k4sgqn",
+      "type": "part",
+      "name": "Tree Trunk",
+      "position": {
+        "x": -4.174423268199512,
+        "y": 1.2,
+        "z": 11.514432592995684
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "size": {
+        "x": 0.6,
+        "y": 2.4,
+        "z": 0.6
+      },
+      "color": "#6b4226",
+      "material": "wood",
+      "transparency": 0,
+      "collidable": true,
+      "anchored": true,
+      "parentId": null,
+      "scripts": [
+        {
+          "event": "onPrompt",
+          "actions": [
+            {
+              "type": "showMessage",
+              "text": "tree"
+            }
+          ]
+        }
+      ],
+      "prompt": {
+        "enabled": true,
+        "text": "tree",
+        "key": "KeyE",
+        "maxDistance": 3.5,
+        "holdSeconds": 5
+      },
+      "scriptSource": "onPrompt:\nshowMessage(\"tree\")"
+    },
+    {
+      "id": "part_mswxc4wv_arodr9",
+      "type": "part",
+      "name": "Tree Canopy",
+      "position": {
+        "x": -4.174423268199512,
+        "y": 3.4,
+        "z": 11.514432592995684
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "size": {
+        "x": 2.2,
+        "y": 2.2,
+        "z": 2.2
+      },
+      "color": "#2e8b57",
+      "material": "grass",
+      "transparency": 0,
+      "collidable": true,
+      "anchored": true,
+      "parentId": null,
+      "scripts": []
+    },
+    {
+      "id": "part_mswxc4wv_gha8ib",
+      "type": "part",
+      "name": "Tree Trunk",
+      "position": {
+        "x": 12,
+        "y": 1.2,
+        "z": -2
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "size": {
+        "x": 0.6,
+        "y": 2.4,
+        "z": 0.6
+      },
+      "color": "#6b4226",
+      "material": "wood",
+      "transparency": 0,
+      "collidable": true,
+      "anchored": true,
+      "parentId": null,
+      "scripts": []
+    },
+    {
+      "id": "part_mswxc4wv_jtl1nr",
+      "type": "part",
+      "name": "Tree Canopy",
+      "position": {
+        "x": 12,
+        "y": 3.4,
+        "z": -2
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "size": {
+        "x": 2.2,
+        "y": 2.2,
+        "z": 2.2
+      },
+      "color": "#2e8b57",
+      "material": "grass",
+      "transparency": 0,
+      "collidable": true,
+      "anchored": true,
+      "parentId": null,
+      "scripts": []
+    },
+    {
+      "id": "part_mswxc4wv_npjanc",
+      "type": "part",
+      "name": "Tree Trunk",
+      "position": {
+        "x": -10,
+        "y": 1.2,
+        "z": -4
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "size": {
+        "x": 0.6,
+        "y": 2.4,
+        "z": 0.6
+      },
+      "color": "#6b4226",
+      "material": "wood",
+      "transparency": 0,
+      "collidable": true,
+      "anchored": true,
+      "parentId": null,
+      "scripts": []
+    },
+    {
+      "id": "part_mswxc4wv_7eimp5",
+      "type": "part",
+      "name": "Tree Canopy",
+      "position": {
+        "x": -10,
+        "y": 3.4,
+        "z": -4
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "size": {
+        "x": 2.2,
+        "y": 2.2,
+        "z": 2.2
+      },
+      "color": "#2e8b57",
+      "material": "grass",
+      "transparency": 0,
+      "collidable": true,
+      "anchored": true,
+      "parentId": null,
+      "scripts": []
+    },
+    {
+      "id": "part_mswxc4wv_m8phmi",
+      "type": "part",
+      "name": "Tree Trunk",
+      "position": {
+        "x": 4,
+        "y": 1.2,
+        "z": -8
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "size": {
+        "x": 0.6,
+        "y": 2.4,
+        "z": 0.6
+      },
+      "color": "#6b4226",
+      "material": "wood",
+      "transparency": 0,
+      "collidable": true,
+      "anchored": true,
+      "parentId": null,
+      "scripts": []
+    },
+    {
+      "id": "part_mswxc4wv_174yky",
+      "type": "part",
+      "name": "Tree Canopy",
+      "position": {
+        "x": 4,
+        "y": 3.4,
+        "z": -8
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "size": {
+        "x": 2.2,
+        "y": 2.2,
+        "z": 2.2
+      },
+      "color": "#2e8b57",
+      "material": "grass",
+      "transparency": 0,
+      "collidable": true,
+      "anchored": true,
+      "parentId": null,
+      "scripts": []
+    },
+    {
+      "id": "part_mswxc4wv_y5n9mj",
+      "type": "part",
+      "name": "Pond",
+      "position": {
+        "x": 0,
+        "y": -0.35,
+        "z": -2.1381382261213773
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 200,
+        "y": 1,
+        "z": 200
+      },
+      "size": {
+        "x": 12,
+        "y": 0.15,
+        "z": 10
+      },
+      "color": "#3fa9dd",
+      "material": "glass",
+      "transparency": 0.35,
+      "collidable": false,
+      "anchored": true,
+      "parentId": null,
+      "scripts": [
+        {
+          "event": "onTouch",
+          "actions": [
+            {
+              "type": "showMessage",
+              "text": "Thats water... but swiming isnt in the game yet"
+            }
+          ]
+        }
+      ],
+      "scriptSource": "onTouch:\n    showMessage(\"Thats water... but swiming isnt in the game yet\")"
+    },
+    {
+      "id": "part_mswxc4wv_erpwfk",
+      "type": "part",
+      "name": "Hedge 1",
+      "position": {
+        "x": 16,
+        "y": 0.7,
+        "z": -4
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "size": {
+        "x": 5,
+        "y": 1.4,
+        "z": 0.6
+      },
+      "color": "#2e8b57",
+      "material": "grass",
+      "transparency": 0,
+      "collidable": true,
+      "anchored": true,
+      "parentId": null,
+      "scripts": []
+    },
+    {
+      "id": "part_mswxc4wv_mci36f",
+      "type": "part",
+      "name": "Hedge 2",
+      "position": {
+        "x": 16,
+        "y": 0.7,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "size": {
+        "x": 5,
+        "y": 1.4,
+        "z": 0.6
+      },
+      "color": "#2e8b57",
+      "material": "grass",
+      "transparency": 0,
+      "collidable": true,
+      "anchored": true,
+      "parentId": null,
+      "scripts": []
+    },
+    {
+      "id": "part_mswxc4wv_3ke0rn",
+      "type": "part",
+      "name": "Hedge 3",
+      "position": {
+        "x": 13.7,
+        "y": 0.7,
+        "z": -2
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "size": {
+        "x": 0.6,
+        "y": 1.4,
+        "z": 4
+      },
+      "color": "#2e8b57",
+      "material": "grass",
+      "transparency": 0,
+      "collidable": true,
+      "anchored": true,
+      "parentId": null,
+      "scripts": []
+    },
+    {
+      "id": "part_mswxc4wv_fhb07o",
+      "type": "part",
+      "name": "Hedge 4",
+      "position": {
+        "x": 18.3,
+        "y": 0.7,
+        "z": -2
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "size": {
+        "x": 0.6,
+        "y": 1.4,
+        "z": 4
+      },
+      "color": "#2e8b57",
+      "material": "grass",
+      "transparency": 0,
+      "collidable": true,
+      "anchored": true,
+      "parentId": null,
+      "scripts": []
+    },
+    {
+      "id": "part_mswxc4wv_zzlbg4",
+      "type": "part",
+      "name": "Hedge 5",
+      "position": {
+        "x": 14.9,
+        "y": 0.7,
+        "z": -2.8
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "size": {
+        "x": 0.6,
+        "y": 1.4,
+        "z": 1.6
+      },
+      "color": "#2e8b57",
+      "material": "grass",
+      "transparency": 0,
+      "collidable": true,
+      "anchored": true,
+      "parentId": null,
+      "scripts": []
+    },
+    {
+      "id": "part_mswxc4wv_ng7q2k",
+      "type": "part",
+      "name": "Hedge 6",
+      "position": {
+        "x": 17.1,
+        "y": 0.7,
+        "z": -1.2000000000000002
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "size": {
+        "x": 0.6,
+        "y": 1.4,
+        "z": 1.6
+      },
+      "color": "#2e8b57",
+      "material": "grass",
+      "transparency": 0,
+      "collidable": true,
+      "anchored": true,
+      "parentId": null,
+      "scripts": []
+    },
+    {
+      "id": "part_mswxc4wv_5zy17w",
+      "type": "part",
+      "name": "Fountain Base",
+      "position": {
+        "x": -6,
+        "y": 0.2,
+        "z": -14
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "size": {
+        "x": 5,
+        "y": 0.4,
+        "z": 5
+      },
+      "color": "#8a8f98",
+      "material": "stone",
+      "transparency": 0,
+      "collidable": true,
+      "anchored": true,
+      "parentId": null,
+      "scripts": []
+    },
+    {
+      "id": "part_mswxc4wv_2wfg3r",
+      "type": "part",
+      "name": "Fountain Rim",
+      "position": {
+        "x": -6,
+        "y": 0.5,
+        "z": -15.783934211296309
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 0.10235191785896812
+      },
+      "size": {
+        "x": 4,
+        "y": 0.6,
+        "z": 4
+      },
+      "color": "#787d86",
+      "material": "stone",
+      "transparency": 0,
+      "collidable": true,
+      "anchored": true,
+      "parentId": null,
+      "scripts": []
+    },
+    {
+      "id": "part_mswxc4wv_259jy8",
+      "type": "part",
+      "name": "Fountain Water",
+      "position": {
+        "x": -6,
+        "y": 0.65,
+        "z": -14
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "size": {
+        "x": 3.2,
+        "y": 0.3,
+        "z": 3.2
+      },
+      "color": "#4fd1c5",
+      "material": "glass",
+      "transparency": 0.25,
+      "collidable": false,
+      "anchored": true,
+      "parentId": null,
+      "scripts": []
+    },
+    {
+      "id": "part_mswxc4wv_tasxqw",
+      "type": "part",
+      "name": "Fountain Spout",
+      "position": {
+        "x": -6,
+        "y": 1.1,
+        "z": -14
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "size": {
+        "x": 0.4,
+        "y": 1.4,
+        "z": 0.4
+      },
+      "color": "#4fd1c5",
+      "material": "neon",
+      "transparency": 0,
+      "collidable": true,
+      "anchored": true,
+      "parentId": null,
+      "scripts": []
+    },
+    {
+      "id": "part_mswxjcfn_kul9j0",
+      "type": "part",
+      "name": "Fountain Rim Copy",
+      "position": {
+        "x": -6,
+        "y": 0.5,
+        "z": -12.197309209148615
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 0.10235191785896812
+      },
+      "size": {
+        "x": 4,
+        "y": 0.6,
+        "z": 4
+      },
+      "color": "#787d86",
+      "material": "stone",
+      "transparency": 0,
+      "collidable": true,
+      "anchored": true,
+      "parentId": null,
+      "scripts": []
+    },
+    {
+      "id": "part_mswxjipq_mn04bm",
+      "type": "part",
+      "name": "Fountain Rim Copy Copy",
+      "position": {
+        "x": -4.200975380873285,
+        "y": 0.5,
+        "z": -14.004739767118329
+      },
+      "rotation": {
+        "x": 0,
+        "y": 1.57,
+        "z": 0
+      },
+      "scale": {
+        "x": 0.9817747895202972,
+        "y": 1,
+        "z": 0.10235191785896812
+      },
+      "size": {
+        "x": 4,
+        "y": 0.6,
+        "z": 4
+      },
+      "color": "#787d86",
+      "material": "stone",
+      "transparency": 0,
+      "collidable": true,
+      "anchored": true,
+      "parentId": null,
+      "scripts": []
+    },
+    {
+      "id": "part_mswxlcbx_vl6hh5",
+      "type": "part",
+      "name": "Fountain Rim Copy Copy Copy",
+      "position": {
+        "x": -7.811701664670682,
+        "y": 0.5,
+        "z": -14.004739767118329
+      },
+      "rotation": {
+        "x": 0,
+        "y": 1.57,
+        "z": 0
+      },
+      "scale": {
+        "x": 0.9817747895202972,
+        "y": 1,
+        "z": 0.10235191785896812
+      },
+      "size": {
+        "x": 4,
+        "y": 0.6,
+        "z": 4
+      },
+      "color": "#787d86",
+      "material": "stone",
+      "transparency": 0,
+      "collidable": true,
+      "anchored": true,
+      "parentId": null,
+      "scripts": []
+    },
+    {
+      "id": "part_mswxum53_izlpdf",
+      "type": "part",
+      "name": "Path Copy",
+      "position": {
+        "x": 0,
+        "y": 0.10000000000000009,
+        "z": -5.251710785594952
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "size": {
+        "x": 2,
+        "y": 0.2,
+        "z": 2
+      },
+      "color": "#a9adb4",
+      "material": "concrete",
+      "transparency": 0,
+      "collidable": true,
+      "anchored": true,
+      "parentId": null,
+      "scripts": []
+    },
+    {
+      "id": "part_mswxum53_y72t9e",
+      "type": "part",
+      "name": "Path Copy",
+      "position": {
+        "x": 0,
+        "y": 0.1,
+        "z": -3.0517107855949517
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "size": {
+        "x": 2,
+        "y": 0.2,
+        "z": 2
+      },
+      "color": "#a9adb4",
+      "material": "concrete",
+      "transparency": 0,
+      "collidable": true,
+      "anchored": true,
+      "parentId": null,
+      "scripts": []
+    },
+    {
+      "id": "part_mswxum53_c7bvsg",
+      "type": "part",
+      "name": "Path Copy",
+      "position": {
+        "x": 0,
+        "y": 0.1,
+        "z": -7.451710785594952
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "size": {
+        "x": 2,
+        "y": 0.2,
+        "z": 2
+      },
+      "color": "#a9adb4",
+      "material": "concrete",
+      "transparency": 0,
+      "collidable": true,
+      "anchored": true,
+      "parentId": null,
+      "scripts": []
+    },
+    {
+      "id": "part_mswxuxoz_ko9gxd",
+      "type": "part",
+      "name": "Path Copy Copy",
+      "position": {
+        "x": 0,
+        "y": 0.10000000000000009,
+        "z": -11.902683592328131
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "size": {
+        "x": 2,
+        "y": 0.2,
+        "z": 2
+      },
+      "color": "#a9adb4",
+      "material": "concrete",
+      "transparency": 0,
+      "collidable": true,
+      "anchored": true,
+      "parentId": null,
+      "scripts": []
+    },
+    {
+      "id": "part_mswxuxoz_ho72dz",
+      "type": "part",
+      "name": "Path Copy Copy",
+      "position": {
+        "x": 0,
+        "y": 0.1,
+        "z": -9.702683592328132
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "size": {
+        "x": 2,
+        "y": 0.2,
+        "z": 2
+      },
+      "color": "#a9adb4",
+      "material": "concrete",
+      "transparency": 0,
+      "collidable": true,
+      "anchored": true,
+      "parentId": null,
+      "scripts": []
+    },
+    {
+      "id": "part_mswxuxoz_nyjwn0",
+      "type": "part",
+      "name": "Path Copy Copy",
+      "position": {
+        "x": 0,
+        "y": 0.1,
+        "z": -14.10268359232813
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "size": {
+        "x": 2,
+        "y": 0.2,
+        "z": 2
+      },
+      "color": "#a9adb4",
+      "material": "concrete",
+      "transparency": 0,
+      "collidable": true,
+      "anchored": true,
+      "parentId": null,
+      "scripts": []
+    },
+    {
+      "id": "part_mswxv8qd_twq9vf",
+      "type": "part",
+      "name": "Path Copy Copy Copy",
+      "position": {
+        "x": -2.210425998000236,
+        "y": 0.1,
+        "z": -14.10268359232813
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "size": {
+        "x": 2,
+        "y": 0.2,
+        "z": 2
+      },
+      "color": "#a9adb4",
+      "material": "concrete",
+      "transparency": 0,
+      "collidable": true,
+      "anchored": true,
+      "parentId": null,
+      "scripts": []
+    },
+    {
+      "id": "part_mswy085m_zsoi80",
+      "type": "part",
+      "name": "Path Copy",
+      "position": {
+        "x": 0,
+        "y": 0.1,
+        "z": 22.851627228262313
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "size": {
+        "x": 2,
+        "y": 0.2,
+        "z": 2
+      },
+      "color": "#a9adb4",
+      "material": "concrete",
+      "transparency": 0,
+      "collidable": true,
+      "anchored": true,
+      "parentId": null,
+      "scripts": []
+    },
+    {
+      "id": "part_mswy085m_woeaff",
+      "type": "part",
+      "name": "Path Copy",
+      "position": {
+        "x": 0,
+        "y": 0.1,
+        "z": 25.051627228262312
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "size": {
+        "x": 2,
+        "y": 0.2,
+        "z": 2
+      },
+      "color": "#a9adb4",
+      "material": "concrete",
+      "transparency": 0,
+      "collidable": true,
+      "anchored": true,
+      "parentId": null,
+      "scripts": []
+    },
+    {
+      "id": "part_mswy085m_adeuxl",
+      "type": "part",
+      "name": "Path Copy",
+      "position": {
+        "x": 0,
+        "y": 0.0007469821517230024,
+        "z": 27.25162722826231
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "size": {
+        "x": 2,
+        "y": 0.2,
+        "z": 2
+      },
+      "color": "#a9adb4",
+      "material": "concrete",
+      "transparency": 0,
+      "collidable": true,
+      "anchored": true,
+      "parentId": null,
+      "scripts": []
+    },
+    {
+      "id": "part_mswy1ncw_dxwrlj",
+      "type": "part",
+      "name": "Part",
+      "position": {
+        "x": -0.029649717082090188,
+        "y": -0.023871979710139213,
+        "z": 30.80517890507075
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1.100650428697075,
+        "y": 0.12412197732770851,
+        "z": 3.0794083434701993
+      },
+      "size": {
+        "x": 2,
+        "y": 2,
+        "z": 2
+      },
+      "color": "#79460c",
+      "material": "stone",
+      "transparency": 0,
+      "collidable": true,
+      "anchored": true,
+      "parentId": null,
+      "scripts": []
+    },
+    {
+      "id": "part_mswy39kv_ifslgd",
+      "type": "part",
+      "name": "Part Copy",
+      "position": {
+        "x": -0.9397137149475414,
+        "y": 0.7212910241328914,
+        "z": 30.80517890507075
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 0.10928891772056935,
+        "y": 0.12901335144550802,
+        "z": 3.0086192784565835
+      },
+      "size": {
+        "x": 2,
+        "y": 2,
+        "z": 2
+      },
+      "color": "#79460c",
+      "material": "stone",
+      "transparency": 0,
+      "collidable": true,
+      "anchored": true,
+      "parentId": null,
+      "scripts": []
+    },
+    {
+      "id": "part_mswy4xtr_yc44yy",
+      "type": "part",
+      "name": "Part Copy Copy",
+      "position": {
+        "x": -0.9397137149475414,
+        "y": 0.5426332264840168,
+        "z": 33.718516677038366
+      },
+      "rotation": {
+        "x": -3.141592653589793,
+        "y": 0,
+        "z": -3.141592653589793
+      },
+      "scale": {
+        "x": -0.15045838297174094,
+        "y": 0.49646192637241576,
+        "z": 0.1572783926157573
+      },
+      "size": {
+        "x": 2,
+        "y": 2,
+        "z": 2
+      },
+      "color": "#79460c",
+      "material": "stone",
+      "transparency": 0,
+      "collidable": true,
+      "anchored": true,
+      "parentId": null,
+      "scripts": []
+    },
+    {
+      "id": "part_mswy5k32_83moqk",
+      "type": "part",
+      "name": "Part Copy Copy Copy",
+      "position": {
+        "x": -0.9397137149475414,
+        "y": 0.5426332264840168,
+        "z": 27.94367129767025
+      },
+      "rotation": {
+        "x": -3.141592653589793,
+        "y": 0,
+        "z": -3.141592653589793
+      },
+      "scale": {
+        "x": -0.17116418634995317,
+        "y": 0.49646192637241576,
+        "z": 0.1572783926157573
+      },
+      "size": {
+        "x": 2,
+        "y": 2,
+        "z": 2
+      },
+      "color": "#79460c",
+      "material": "stone",
+      "transparency": 0,
+      "collidable": true,
+      "anchored": true,
+      "parentId": null,
+      "scripts": []
+    },
+    {
+      "id": "part_mswy6q7e_bwox2g",
+      "type": "part",
+      "name": "Part Copy Copy Copy",
+      "position": {
+        "x": 0.9259525006074657,
+        "y": 0.5426332264840168,
+        "z": 33.718516677038366
+      },
+      "rotation": {
+        "x": -3.141592653589793,
+        "y": -2.7369110631344083e-48,
+        "z": -3.141592653589793
+      },
+      "scale": {
+        "x": -0.15045838297174094,
+        "y": 0.49646192637241576,
+        "z": 0.1572783926157573
+      },
+      "size": {
+        "x": 2,
+        "y": 2,
+        "z": 2
+      },
+      "color": "#79460c",
+      "material": "stone",
+      "transparency": 0,
+      "collidable": true,
+      "anchored": true,
+      "parentId": null,
+      "scripts": []
+    },
+    {
+      "id": "part_mswy6q7f_2ydalo",
+      "type": "part",
+      "name": "Part Copy Copy",
+      "position": {
+        "x": 0.9259525006074657,
+        "y": 0.7212910241328914,
+        "z": 30.80517890507075
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 0.10928891772056935,
+        "y": 0.12901335144550802,
+        "z": 3.0086192784565835
+      },
+      "size": {
+        "x": 2,
+        "y": 2,
+        "z": 2
+      },
+      "color": "#79460c",
+      "material": "stone",
+      "transparency": 0,
+      "collidable": true,
+      "anchored": true,
+      "parentId": null,
+      "scripts": []
+    },
+    {
+      "id": "part_mswy6q7f_q5i66w",
+      "type": "part",
+      "name": "Part Copy Copy Copy Copy",
+      "position": {
+        "x": 0.9259525006074657,
+        "y": 0.5426332264840168,
+        "z": 27.94367129767025
+      },
+      "rotation": {
+        "x": -3.141592653589793,
+        "y": -2.7369110631344083e-48,
+        "z": -3.141592653589793
+      },
+      "scale": {
+        "x": -0.17116418634995317,
+        "y": 0.49646192637241576,
+        "z": 0.1572783926157573
+      },
+      "size": {
+        "x": 2,
+        "y": 2,
+        "z": 2
+      },
+      "color": "#79460c",
+      "material": "stone",
+      "transparency": 0,
+      "collidable": true,
+      "anchored": true,
+      "parentId": null,
+      "scripts": []
+    },
+    {
+      "id": "part_mswybmy7_g9eart",
+      "type": "part",
+      "name": "Baseplate Copy",
+      "position": {
+        "x": 0,
+        "y": -0.6333200317734322,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 6.02517353172333,
+        "y": 1,
+        "z": 7.09617734797056
+      },
+      "size": {
+        "x": 8,
+        "y": 1,
+        "z": 8
+      },
+      "color": "#d8e156",
+      "material": "grass",
+      "transparency": 0,
+      "collidable": true,
+      "anchored": true,
+      "parentId": null,
+      "scripts": []
+    }
+  ],
+  "scripts": [
+    {
+      "event": "onPlayerJoin",
+      "actions": [
+        {
+          "type": "showMessage",
+          "text": "Welcome!"
+        }
+      ]
+    }
+  ],
+  "settings": {
+    "gravity": -28,
+    "killY": -25
+  }
+}
