@@ -1,1 +1,0 @@
-This platform uses no external image/audio assets — cosmetics are procedural (canvas textures + primitive geometry) and sound effects are generated at runtime with the Web Audio API. This folder is kept for future asset drops (custom textures, models, etc.).
